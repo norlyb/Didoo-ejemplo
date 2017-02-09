@@ -6,16 +6,21 @@
 package dido.ejemplo;
 
 import java.util.Scanner;
- *
- * @author Estudiante
- */
-public class DidoEjemplo {
 
-    /**
-     * @param args the command line arguments
-     */
+
+public class DidoEjemplo {
+import java.text.DecimalFormat;
+DecimalFormat formateador= new DecimalFormat("0000.0000")
+    
     public static void main(String[] args) {
-        // TODO code application logic here
+        java.util.Scanner lec=
+                new java.util.Scanner(System.in);
+        Double a,b;
+        Double p;
+    System.out.println();
+        a=lec.nextDouble(); b=lec.nextDouble();
+        System.out.println((3,1416));   
+        
     }
     
 }
